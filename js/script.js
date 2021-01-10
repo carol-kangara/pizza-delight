@@ -1,10 +1,11 @@
-// //bussiness logic
-// function Order(size,crust,topping){
-//     this.size=size;
-//     this.crust=crust;
-//     this.topping=topping;
-// }
-// //user interface
-// $(document).ready(function(){
+//bussiness logic
+function Order(size,crust,topping,number){
+    this.size=size;
+    this.crust=crust;
+    this.topping=topping;
+    this.number=number;
+}
+//user interface
+$(document).ready(function(){
     
-// });
+});
