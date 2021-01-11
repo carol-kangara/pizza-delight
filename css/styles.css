@@ -41,7 +41,14 @@ a {
    text-align: center; 
    color:black;
     font-size:x-large;
+    font-weight: bold;
+
 } 
+#about p{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold
+}
 
   
   
