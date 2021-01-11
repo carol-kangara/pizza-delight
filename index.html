@@ -138,15 +138,14 @@
                             </select>   
                             <label >Number of pizza's</label>
                             <input type="number" id="number" class="customer-selection mb-2 form-control" min="1" required>
-                            <label>Deliverly</label>
-                            <select name="deliver" id="del">
-                                <option value="yes" class="form-control">yes</option>
-                                <option value="no" class="form-control">No</option>
-                            </select>
                         </div>
                     </div>
                 </div>
-                <button class="btn" id="orders" class="form-control">Order</button>
+                <button class="btn btn-warning" id="orders" class="form-control">Order</button>
+                <div class="deliver">
+                    <button class="btn btn-success mr-3 mt-3" id="deliver" class="form-control">Deliverly</button>
+                    <button class="btn btn-danger ml-4 mt-3" id="deliver" class="form-control">No delivery</button>
+                </div>
                 <h2>Your order is:</h2>
                 <ul id="output"></ul>
                
