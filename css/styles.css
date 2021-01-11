@@ -16,12 +16,12 @@ body{
     background-color: rgb(219, 219, 116);
     box-shadow: 2px,2px;
 }
-/* ul{
+ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li {
+/*li {
     float:left;
 }
 a {
