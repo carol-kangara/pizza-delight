@@ -21,7 +21,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/*li {
+li {
     float:left;
 }
 a {
@@ -30,7 +30,7 @@ a {
     text-decoration: none;
     color:rgb(10, 108, 194);
 }
-#About-us{
+/*#About-us{
     /* background-image:url("../images/img7.jpg");
     background-position: center;
     background-size: cover;
