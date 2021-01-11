@@ -24,12 +24,12 @@ $(document).ready(function(){
     let inputtedNumber=$("#number").val();
     let newOrder = new Order( inputtedSize ,inputtedCrust,inputtedTopping1,inputtedTopping2,inputtedNumber);
      
-//     $("#orders").click(function(){
-//         if(inputtedNumber=1){
-//         alert("your have ordered a: " + inputtedSize  + ' ' + inputtedCrust + ' ' + inputtedTopping + ' ' +inputtedNumber + "pizza!");
-//         alert("The total cost is" +sizePrice.Order+ '' +crustPrice.Order + ''+ deliveryPrice  + ''+ toppingPrice + ".");
-//         }
-//     })
+    $("#orders").click(function(){
+        if(inputtedNumber=1){
+        alert("your have ordered a: " + inputtedSize  + ' ' + inputtedCrust + ' ' + inputtedTopping + ' ' +inputtedNumber + "pizza!");
+        alert("The total cost is" +sizePrice.Order+ '' +crustPrice.Order + ''+ deliveryPrice  + ''+ toppingPrice + ".");
+        }
+    })
 
     
 
