@@ -1,11 +1,11 @@
-// function Order(size,crust,topping1,topping2,number,delivery){
-// this.size=size;
-// this.crust=crust;
-// this.topping1=topping1;
-// this.topping2=topping2;
-// this.number=number;
-// this.delivery=delivery;
-// }
+function Order(size,crust,topping1,topping2,number,delivery){
+this.size=size;
+this.crust=crust;
+this.topping1=topping1;
+this.topping2=topping2;
+this.number=number;
+this.delivery=delivery;
+}
 // function Final (crustPrice,toppingsPrice , deliveryPrice ) {;
 //     this.crustPrice=crustPrice;
 //     this.toppingsPrice=toppingsPrice;
