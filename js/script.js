@@ -16,25 +16,25 @@ Order.prototype.myOrder=function(){
        this.sizePrice +=1100;
    }
    if(this.crust==crispy){
-       this.sizeprice +=200;  
+       this.crustprice +=200;  
    }
    else if(this.crust==Glutten-free){
-       this.sizePrice +=250
+       this.crustprice  +=250
    }
    else if(this.crust==stuffed){
-       this.sizePrice +=200
+       this.crustprice  +=200
    }
    else if(this.crust==sicilian-style){
-    this.sizePrice +=300
+    this.crustprice  +=300
    }
    else if(this.crust==chicago-style){
-    this.sizePrice +=300
+    this.crustprice  +=300
    }
    else if(this.crust==New-york-style){
-    this.sizePrice +=250
+    this.crustprice  +=250
    }
    else if(this.crust==custom-crust){
-    this.sizePrice +=200
+    this.crustprice  +=200
    }
    for(var i= 1; i < this.Numbers.length; i++){
     pizzaNumber += pizzaNumbers[i];
@@ -53,13 +53,17 @@ $(document).ready(function(){
         if(inputtedNumber==1 || inputtedNumber<=1 ){
         alert("your have ordered a: " + inputtedNumber + '' + inputtedSize  + ' ' + inputtedCrust + ' ' + inputtedTopping1 + ' ' + inputtedTopping2  + "pizza!");
         }
-        alert("your will pay: " + sizePrice +".");
-        }
+        alert("your will pay: " + sizePrice + crustprice + this.topping1 + this.topping1 + ".");
     });
 
-    $("ul#order").append("<li>Your order is " + newOrder.Order + "</li>")
+    $("ul#output").append("<li>Your order is " + sizePrice + crustprice + this.topping1 + this.topping1  + "</li>")
 
 });
+$(document).ready(function(){
+    $("button#deliver1").click(function(){
+        $("#mc_embed_signup_deliver").show();
+    })
+})
 function buttonClick(){
     alert ("Thankyou for shopping with us")
 };
